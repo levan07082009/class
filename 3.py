@@ -22,4 +22,4 @@ a1 = 1/2 * m.fabs(x1* y2 + x2 * y3 +x3 * y1- x1*y3 - x2 * y1 - y3 * y2)
 a2 = 1/2 * m.fabs(x4* y2 + x2 * y3 +x3 * y4- x4*y3 - x2 * y4 - y3 * y2)
 
 
-print("area of this surface is" + str(a1+a2))
+print(f"area of this surface is {a1+a2} km2")
