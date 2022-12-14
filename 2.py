@@ -11,4 +11,4 @@ x2, y2 = point2
 x2=m.radians(x2)
 y2=m.radians(y2)
 d = radius * m.acos(m.sin ( x1 ) * m.sin ( x2 ) + m.cos( x1 ) * m.cos( x2 ) * m.cos( y1 - y2 ))
-print("The distance between the two points is " + d)
+print(f"The distance between the two points is {d}")
