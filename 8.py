@@ -1,3 +1,5 @@
+# ori wami es ar gadawerot
+
 amount = eval(input("Enter an amount, for example, 11.56: "))
 
 remaining_amount = int(amount * 100)
