@@ -6,5 +6,5 @@ a = 2 * r * math.sin(math.pi / 5)
 area = (3 * 3 ** 0.5)/2 * a ** 2
 
 
-print("area is", round(area, 2))
+print(f"area is{area:.5}")
 
