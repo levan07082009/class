@@ -10,12 +10,6 @@ x2, y2 = cities.get("orlando")
 x3, y3 = cities.get("savana")
 x4, y4 = cities.get("charlotte")
 
-a=((x2 - x1)**2 + (y2 - y1)**2)**0.5
-b=((x3 - x2)**2 + (y3 - y2)**2)**0.5
-c=((x4 - x3)**2 + (y4 - y3)**2)**0.5
-d=((x1 - x4)**2 + (y1 - y4)**2)**0.5
-
-# pirveli samkutxedis fartobi
 
 a1 = 1/2 * m.fabs(x1* y2 + x2 * y3 +x3 * y1- x1*y3 - x2 * y1 - y3 * y2)
 
